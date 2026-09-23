@@ -4,6 +4,10 @@ import SiteChrome from '../components/SiteChrome';
 export const metadata = {
   title: 'PREMIUM Building Materials — Imported finishes, Nigeria',
   description: 'Imported sanitary ware, doors, windows, cabinets, tiles and finishes, delivered to site across Nigeria.',
+  icons: {
+    icon: '/assets/logo.jpg',
+    apple: '/assets/logo.jpg',
+  },
 };
 
 export default function RootLayout({ children }) {
